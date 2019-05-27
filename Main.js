@@ -9,10 +9,10 @@ var config = {
 	pixelArt: true,
 	roundPixels: true,
 	physics: {
-        default: 'arcade',
-        arcade: {
+        default: 'matter',
+        matter: {
             gravity: { y: 0 },
-            debug: false
+            debug: true
         }
     },
 	scene: [ManagerScene]
